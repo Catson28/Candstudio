@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 
 export default class Testimonials extends Component {

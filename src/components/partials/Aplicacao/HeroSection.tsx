@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Button, Col, Container, Row} from 'react-bootstrap';
 
 export default class HeroSection extends Component {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Navbar, Nav, Button, Row, Col } from 'react-bootstrap';
 
 const Template = () => {

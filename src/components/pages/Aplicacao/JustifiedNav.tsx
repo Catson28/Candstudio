@@ -1,5 +1,4 @@
-import React from 'react';
-import { Container, Navbar, Nav, Jumbotron, Row, Col, Button } from 'react-bootstrap';
+import { Container, Navbar, Nav, Row, Col, Button } from 'react-bootstrap';
 
 const App = () => {
   return (

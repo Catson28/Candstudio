@@ -1,4 +1,3 @@
-import React from 'react';
 import { Navbar, Nav, NavDropdown, Container, Row, Col, Button } from 'react-bootstrap';
 
 const Fluid = () => {

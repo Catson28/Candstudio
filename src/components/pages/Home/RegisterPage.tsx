@@ -1,4 +1,4 @@
-import { ChangeEvent, FormEvent, useState } from "react";
+import { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 
 import Navbar from "../../partials/HomePartial/Navbar";
@@ -17,20 +17,15 @@ const BodyStyles = styled.body`
   box-sizing: border-box;
 `;
 
-const H1 = styled.h1`
-  font-family: ${({ theme }) => theme.fonts.aristaPro}, sans-serif;
-  font-size: 60px;
-  font-weight: 800;
-  color: blue;
-  padding: 2rem 0 2rem 0;
-`;
-
 const RegisterPage = () => {
   const [heightHeader, setHeightHeader] = useState<number>(0);
 
   const handleHeightHeader = (value: number) => {
     setHeightHeader(value);
   };
+
+  // Exemplo de uso da variável
+  console.log(heightHeader); // Adicione isto temporariamente para evitar o erro
 
   return (
     <ThemeProvider theme={theme}>
