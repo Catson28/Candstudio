@@ -10,7 +10,7 @@ import HeroPage from '../../components/pages/Aplicacao/HeroPage.tsx';
 
 const AppRoutes = [
   {
-    path: '/',
+    path: '/Candstudio',
     element: <HomePage />,
   },
   {
